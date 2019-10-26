@@ -1,0 +1,73 @@
+.App {
+  max-width: 960px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px auto;
+  grid-template-areas:
+    "header header header header"
+    "aside main main main";
+}
+
+.header {
+  background: #f9f5f3;
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  &__image {
+    width: 70%;
+    align-self: center;
+    margin-left: 2rem;
+  }
+
+  &__form {
+    border-radius: 10rem;
+    align-self: center;
+    background: #fff;
+    width: 70%;
+  }
+
+  &__input {
+    padding: 0.8rem;
+    border: none;
+    background: none;
+    outline: none;
+  }
+}
+
+.aside {
+  grid-area: aside;
+
+  &__recipe {
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &__recipe--image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-self: center;
+  }
+
+  &__recipe--title {
+    font-size: 0.8rem;
+    align-self: center;
+  }
+}
+
+.main {
+  grid-area: main;
+  background: lightblue;
+}
