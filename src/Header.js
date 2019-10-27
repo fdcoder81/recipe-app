@@ -12,6 +12,7 @@ class Header extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     this.props.searchQuery(this.state.query);
+    this.setState({ query: "" });
   };
 
   render() {
