@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/energy-institute/static/css/main.091b4f31.chunk.css",
+    "main.js": "/energy-institute/static/js/main.92cee0fb.chunk.js",
+    "main.js.map": "/energy-institute/static/js/main.92cee0fb.chunk.js.map",
+    "runtime-main.js": "/energy-institute/static/js/runtime-main.cd7065f6.js",
+    "runtime-main.js.map": "/energy-institute/static/js/runtime-main.cd7065f6.js.map",
+    "static/js/2.05b3ef60.chunk.js": "/energy-institute/static/js/2.05b3ef60.chunk.js",
+    "static/js/2.05b3ef60.chunk.js.map": "/energy-institute/static/js/2.05b3ef60.chunk.js.map",
+    "index.html": "/energy-institute/index.html",
+    "precache-manifest.71a234c399017992de4a94fe7518a9ca.js": "/energy-institute/precache-manifest.71a234c399017992de4a94fe7518a9ca.js",
+    "service-worker.js": "/energy-institute/service-worker.js",
+    "static/css/main.091b4f31.chunk.css.map": "/energy-institute/static/css/main.091b4f31.chunk.css.map",
+    "static/media/logo.png": "/energy-institute/static/media/logo.a0338ac0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd7065f6.js",
+    "static/js/2.05b3ef60.chunk.js",
+    "static/css/main.091b4f31.chunk.css",
+    "static/js/main.92cee0fb.chunk.js"
+  ]
+}
