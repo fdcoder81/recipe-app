@@ -1,0 +1,47 @@
+@media only screen and (min-width: 320px) and (max-width: 560px) {
+  .aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.aside {
+  grid-area: aside;
+
+  &__loader {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  &__recipe {
+    cursor: pointer;
+    text-align: center;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition: 0.5s ease-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  &__recipe--image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    align-self: center;
+  }
+
+  &__recipe--title {
+    font-size: 0.8rem;
+    align-self: center;
+    font-weight: 600;
+  }
+}

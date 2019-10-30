@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Main.scss";
+
 import Loader from "react-loader-spinner";
 
 const Main = ({ recipeClicked, loadingDetails }) => {

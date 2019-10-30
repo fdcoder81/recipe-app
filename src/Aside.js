@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Aside.scss";
+
 import Loader from "react-loader-spinner";
 
 const Aside = ({ recipes, handleClick, loading }) => {
